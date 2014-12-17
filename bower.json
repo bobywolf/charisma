@@ -1,0 +1,38 @@
+{
+  "name": "charisma",
+  "version": "0.0.1",
+  "authors": [
+    "wangxiaobo <wangxiaobo@sogou-inc.com>"
+  ],
+  "description": "front ui template",
+  "main": "./dist/js/charisma.js",
+  "moduleType": [
+    "node"
+  ],
+  "keywords": [
+    "ui",
+    "template",
+    "charisma"
+  ],
+  "license": "MIT",
+  "homepage": "http://context.adtech.sogou-inc.com/~wangxiaobo",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.1",
+    "bootstrap-tour": "~0.10.1",
+    "chosen": "~1.2.0",
+    "colorbox": "~1.5.14",
+    "datatables": "~1.10.4",
+    "flot": "~0.8.3",
+    "fullcalendar": "~2.2.3",
+    "responsive-tables": "*",
+    "eonasdan-bootstrap-datetimepicker": "~3.1.3"
+  }
+}
