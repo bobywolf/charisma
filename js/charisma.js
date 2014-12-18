@@ -42,11 +42,11 @@ $(document).ready(function () {
 
 
     function switchTheme(themeName) {
-        if (themeName == 'classic') {
+        /*if (themeName == 'classic') {
             $('#bs-css').attr('href', 'bower_components/bootstrap/dist/css/bootstrap.min.css');
         } else {
             $('#bs-css').attr('href', 'css/bootstrap-' + themeName + '.min.css');
-        }
+        }*/
 
         $('#themes i').removeClass('glyphicon glyphicon-ok whitespace').addClass('whitespace');
         $('#themes a[data-value=' + themeName + ']').find('i').removeClass('whitespace').addClass('glyphicon glyphicon-ok');
